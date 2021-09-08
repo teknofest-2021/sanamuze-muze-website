@@ -4,7 +4,7 @@ FROM nginx:alpine
 
 WORKDIR /app
 
-RUN rm -rf ./*
+RUN rm -rf .
 
 COPY . .
 
