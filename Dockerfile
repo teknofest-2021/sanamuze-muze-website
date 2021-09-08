@@ -2,10 +2,10 @@
 
 FROM nginx:alpine
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
-RUN rm -rf .
+RUN rm -rf ./*
 
-COPY . .
+COPY ./* ./
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
