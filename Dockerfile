@@ -4,4 +4,8 @@ FROM nginx:alpine
 
 WORKDIR /app
 
-COPY . .
+RUN rm -rf ./*
+
+COPY ./* ./
+
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
