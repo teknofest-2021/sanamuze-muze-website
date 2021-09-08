@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN rm -rf ./*
 
-COPY ./* ./
+COPY . .
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
