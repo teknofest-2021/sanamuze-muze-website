@@ -25,6 +25,7 @@ Now you can start ``index.html``
 ## Authors
 
 * **Ramazan Kaan Yarayan** - [Github](https://github.com/rknyryn)
+* **Fehmi Şener** - [Github](https://github.com/fehmiisener)
 
 See also the list of [contributors](https://github.com/teknofest-2021/sanamuze-mobile-app/contributors) who participated in this project.
 
