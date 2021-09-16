@@ -9,6 +9,7 @@ html {
   font-family: "Audiowide", cursive;
   scroll-behavior: smooth;
 }
+
 a {
   text-decoration: none;
 }
@@ -75,7 +76,7 @@ p {
   transition: 0.3s ease;
   transition-property: bakcground-color, color;
 }
-.btn2:hover{
+.btn2:hover {
   color: white;
   background-color: #0ca454;
 }
@@ -566,7 +567,7 @@ p {
   }
   #about .col-left {
     width: 600px;
-    height: 400px;
+    height: 290px;
     padding-left: 60px;
   }
   #about .about .col-left .about-img::after {
