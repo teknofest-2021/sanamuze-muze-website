@@ -2,7 +2,7 @@
 
 This is a website for sanAmuze. You can visit the museums with a 3D tour and examine the works in the museums 360.
 
-<img src="./images/screenshot-home.png">
+<img src="./assets/images/screenshot-home.png">
 
 ## Getting Started
 

@@ -62,6 +62,24 @@ p {
   color: white;
   background-color: #0ca454;
 }
+
+.btn2 {
+  display: inline-block;
+  color: white;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #0ca454;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: bakcground-color, color;
+}
+.btn2:hover{
+  color: white;
+  background-color: #0ca454;
+}
+
 .brand h1 {
   font-size: 3rem;
   text-transform: uppercase;
@@ -200,7 +218,7 @@ p {
 
 /* Home Section */
 #home {
-  background-image: url(../images/bg.jpg);
+  background-image: url(../assets/images/bg.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -335,7 +353,16 @@ p {
   transform: scale(1.1);
 }
 /* End Museums section */
-
+#works .works {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#works .works-item {
+  background-color: #151515;
+  width: 80%;
+}
 /* About Section */
 #about .about {
   flex-direction: column-reverse;
@@ -423,6 +450,44 @@ p {
   font-size: 1.3rem;
 }
 /* End Footer */
+
+/* Modal*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Modal End*/
 
 /* Keyframes */
 @keyframes hamburger_puls {
