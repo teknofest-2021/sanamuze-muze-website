@@ -29,9 +29,9 @@ menu_item.forEach((item) => {
 });
 
 
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById("modal1");
+const btn = document.getElementById("btn1");
+const span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function () {
   modal.style.display = "block";
