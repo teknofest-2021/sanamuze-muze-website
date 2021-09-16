@@ -1,4 +1,4 @@
-# SanAmuze Mobile App
+# SanAmuze Müze Website
 
 This is a website for sanAmuze. You can visit the museums with a 3D tour and examine the works in the museums 360.
 
