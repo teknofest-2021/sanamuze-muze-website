@@ -62,6 +62,24 @@ p {
   color: white;
   background-color: #0ca454;
 }
+
+.btn2 {
+  display: inline-block;
+  color: white;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #0ca454;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: bakcground-color, color;
+}
+.btn2:hover{
+  color: white;
+  background-color: #0ca454;
+}
+
 .brand h1 {
   font-size: 3rem;
   text-transform: uppercase;
