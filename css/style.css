@@ -400,16 +400,10 @@ p {
   position: relative;
   /* border: 10px solid white; */
 }
-/* #about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid #0ca454;
-	z-index: -1;
-} */
+#about .about-link{
+  font-size: 1.4rem;
+  color: #0ca454;
+}
 /* End About Section */
 
 /* Footer */
